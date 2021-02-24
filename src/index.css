@@ -1,4 +1,4 @@
-h1 {
+/* h1 {
   margin-top: 2%;
   margin-bottom: 5%;
 }
@@ -9,10 +9,47 @@ h3 {
 
 form {
   margin-left: 30%;
-  margin-right: 30%;
+  margin-right: 30%; */
+/* } */
+
+#root {
+  display: flex;
+  flex: 1;
+  align-items: center;
+  justify-content: center;
+  width: 100%;
+}
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  outline: 0;
+}
+
+button {
+  cursor: pointer;
+}
+
+.container {
+  width: 100%;
+  max-width: 720px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  margin: 50px 0;
+}
+
+.form-container {
+  width: 100%;
+}
+
+.text-center {
+  margin-bottom: 50px;
 }
 
 .button {
  width: 60%;
- font-size: 1.3em;
+ font-size: 1.3rem;
 }

@@ -1,9 +1,9 @@
 import React from 'react';
 
-const Message = () => {
+const Message = ({ children }) => {
     return (
         <div>
-            <h3 className="text-center message"></h3>
+            <h3 className="text-center message">{children}</h3>
         </div>
     )
 }
